@@ -1,19 +1,17 @@
-import "./App.css";
-import ReactDOM from "react-dom/client";
+import { ChakraProvider } from "@chakra-ui/react";
+import Form from "./Form";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
-import Form from "./Form";
-
-const rootElement = document.getElementById("root");
-ReactDOM.createRoot(rootElement).render(<App />);
 
 function App() {
   return (
-    <div>
-      <Example />
-      <Form />
-    </div>
+    <ChakraProvider>
+      <div>
+        <Example />
+        <Form />
+      </div>
+    </ChakraProvider>
   );
 }
 
