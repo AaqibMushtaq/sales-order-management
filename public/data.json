@@ -1,0 +1,132 @@
+{
+  "distributor": [
+    {
+      "id": 9,
+      "distID": 11907,
+      "customer_profile": {
+        "id": 11907,
+        "name": "Ram",
+        "email": "jesus_christ@church.com",
+        "pincode": "Mumbai",
+        "location_name": "Mumbai, Maharashtra, India",
+        "type": "C",
+        "profile_pic": null
+      }
+    },
+    {
+      "id": 10,
+      "distID": 11908,
+      "customer_profile": {
+        "id": 11908,
+        "name": "Dar Bakery",
+        "email": "darBakery@gmail.com",
+        "pincode": "Khrew",
+        "location_name": "Khrew, J&K, India",
+        "type": "C",
+        "profile_pic": null
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 209,
+      "display_id": 8,
+      "owner": 1079,
+      "name": "Shampoo",
+      "category": "The god of War",
+      "characteristics": "New Product Characteristics",
+      "brand": "New Product Brand",
+      "sku": [
+        {
+          "id": 248,
+          "selling_price": 54,
+          "max_retail_price": 44,
+          "amount": 33,
+          "unit": "kg",
+          "quantity_in_inventory": 0
+        },
+        {
+          "id": 249,
+          "selling_price": 54,
+          "max_retail_price": 44,
+          "amount": 33,
+          "unit": "kg",
+          "quantity_in_inventory": 0
+        }
+      ],
+      "updated_on": "2024-05-24T12:46:41.995873Z",
+      "adding_date": "2024-05-24T12:46:41.995828Z"
+    },
+    {
+      "id": 209,
+      "display_id": 8,
+      "owner": 1079,
+      "name": "Biscuits",
+      "category": "Kiryana",
+      "characteristics": "New Product Characteristics",
+      "brand": "New Product Brand",
+      "sku": [
+        {
+          "id": 248,
+          "selling_price": 54,
+          "max_retail_price": 44,
+          "amount": 33,
+          "unit": "packets",
+          "quantity_in_inventory": 0
+        }
+      ],
+      "updated_on": "2024-05-24T12:46:41.995873Z",
+      "adding_date": "2024-05-24T12:46:41.995828Z"
+    },
+    {
+      "id": 209,
+      "display_id": 8,
+      "owner": 1079,
+      "name": "Bread",
+      "category": "Bakery",
+      "characteristics": "New Product Characteristics",
+      "brand": "Snober",
+      "sku": [
+        {
+          "id": 278,
+          "selling_price": 40,
+          "max_retail_price": 44,
+          "amount": 33,
+          "unit": "pieces",
+          "quantity_in_inventory": 0
+        }
+      ],
+      "updated_on": "2024-05-24T12:46:41.995873Z",
+      "adding_date": "2024-05-24T12:46:41.995828Z"
+    }
+  ],
+
+  "sales_orders": [
+    {
+      "id": 1,
+      "customer_profile": {
+        "name": "Spider",
+        "email": "spider@example.com"
+      },
+      "sku_id": 220,
+      "price": 100,
+      "gst": "",
+      "paid": false,
+      "invoice_no": "invoice-12121212",
+      "invoice_date": "2024-05-24"
+    },
+    {
+      "id": 2,
+      "customer_profile": {
+        "name": "Samin",
+        "email": "dev.saminsfw@example.com"
+      },
+      "sku_id": 220,
+      "price": 100,
+      "gst": "",
+      "paid": false,
+      "invoice_no": "invoice-12121212",
+      "invoice_date": "2024-05-24"
+    }
+  ]
+}
