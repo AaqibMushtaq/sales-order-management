@@ -3,6 +3,7 @@ import Form from "./Form";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
+import TabsComponent from "../Tabs";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       <div>
         <Example />
         <Form />
+      </div>
+      <div>
+        <TabsComponent />
       </div>
     </ChakraProvider>
   );
